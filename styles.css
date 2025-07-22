@@ -1,4 +1,10 @@
 /*CSS file*/
+/*Setting variables*/
+:root
+{
+  --icon-height: 140px;
+  --icon-width: 200px;
+}
 /*-----------------------------------------------------------------------------------*/
 /*Setting background colour*/
 body
@@ -21,7 +27,7 @@ figcaption
 }
 /*-----------------------------------------------------------------------------------*/
 /*Classes*/
-/*Class to set an easy to change icon height and width*/
+/*Class to set an easy to change icon height and width (it failed)*/
 .icon
 {
   width: 100;
