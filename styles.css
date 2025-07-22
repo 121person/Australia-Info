@@ -2,8 +2,8 @@
 /*Setting variables*/
 :root
 {
-  --icon-height: 140;
-  --icon-width: 200;
+  --icon-height: 140px;
+  --icon-width: 200px;
 }
 /*-----------------------------------------------------------------------------------*/
 /*Setting background colour*/
@@ -30,8 +30,8 @@ figcaption
 /*Class to set an easy to change icon height and width (it failed)*/
 .icon
 {
-  width: 100;
-  height: 70;
+  width: var(--icon-width);
+  height: var(--icon-height);
 }
 /*Class for flexbox on main page*/
 .image-container
