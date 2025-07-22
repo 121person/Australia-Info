@@ -1,26 +1,35 @@
+/*CSS file*/
+/*-----------------------------------------------------------------------------------*/
+/*Setting background colour*/
 body
 {
   background-color: #ADD8E6;
 }
+/*Aligning h1 and h2 to centre*/
 h1
 {
   text-align: center;
-}
-.image-container
-{
-  display: flex;
-  justify-content: center
 }
 h2
 {
   text-align: center;
 }
+/*Aligning figure caption to centre*/
 figcaption
 {
   text-align: center;
 }
+/*-----------------------------------------------------------------------------------*/
+/*Classes*/
+/*Class to set an easy to change icon height and width*/
 .icon
 {
   width: 100;
   height: 70;
+}
+/*Class for flexbox on main page*/
+.image-container
+{
+  display: flex;
+  justify-content: center
 }
