@@ -25,6 +25,12 @@ figcaption
 {
   text-align: center;
 }
+/*Making sure hr is black*/
+hr
+{
+  border: none;
+  background-color: black;
+}
 /*-----------------------------------------------------------------------------------*/
 /*Classes*/
 /*Class to set an easy to change icon height and width (it failed)*/
